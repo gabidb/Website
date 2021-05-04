@@ -1,0 +1,249 @@
+#wrapper{
+  max-width: 100vw;
+    Height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .main_nav{
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    width: 87%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+  }
+  .main_nav a{
+    float: right;
+    margin: 25px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+  }
+  .main_nav a:hover {
+    background-color: #ddd;
+    color: red;
+  }
+  #logo{
+    float: left;
+    width: 50px;
+    height: 10px;
+    padding-left:50px;
+  }
+  .sen{
+    position: absolute;
+    z-index: 1;
+    margin-left: -35px;
+  }
+  body {
+    padding:0px;
+    margin:0px;
+    background-color: #FFE5E5;
+  
+  }
+  .main_img{
+    height: 89vh;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 87%;
+  }
+
+
+  .text-block {	
+    text-align: center;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.3);
+    font-family: Georgia, 'Times New Roman', serif;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    position: absolute;
+   top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  img.round{
+    margin: 45px; 
+    border-radius: 20px;
+  }
+  img.round:hover{
+    Opacity: 0.4;
+    transition: 0.3s;
+  }
+  .middle{
+    transition: .5s ease;
+    opacity: 0;
+  }
+  .dif:hover .middle {
+    opacity: 1;
+  }
+
+  .oil,.aroma,.dif{
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .oil:hover .middle {
+    opacity: 1;
+  }
+  img.aroma:hover{
+    Opacity: 0.4;
+    transition: 0.3s;
+  }
+  .aroma:hover .middle {
+    opacity: 1;
+  }
+  .main_rect {
+    background-color: rgba(0,0,0, 0.3);
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    Margin-bottom: 50px;
+    border-radius: 20px;
+    position: relative;
+  }
+  .rect{
+    Background-color:rgba(255,255,255, 0.5);
+    Width: 60%;
+    Height: 250px;
+    Margin-left: 50px;
+    Margin-top:50px;
+    Margin-bottom: 20px;
+    Position: absolute;
+    Border-radius:20px;
+  }
+  .text{
+    Font-family: Verdana;
+    color: black;
+    text-decoration-style: solid;
+    position: relative;
+    Text-align: center;
+    Top: 12%;
+    Margin-left: 10px; 
+    Margin-right: 10px; 
+  }
+  .btn1{
+    position: absolute;
+    top: 65%;
+    left: 36%;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 12px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    Opacity: 0.8;
+  }
+  .img_dif2{
+    Position: relative;
+    Left: 67%;
+    Top: 14.6%;
+    border-radius: 20px;
+  }
+  .rect1{
+    Background-color:rgba(255,255,255, 0.5);
+    Width: 60%;
+    Height: 250px;
+    margin: 50px 45px 20px 400px;
+    Position: absolute;
+    Border-radius:20px;
+  }
+  .img_oil2{
+    Position: absolute;
+    Left: 2.8%;
+    Top: 14.6%;
+    border-radius: 20px;
+  }
+  .footer{
+    background-color: rgba(0,0,0, 0.3);
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    Margin-bottom: 50px;
+    position: relative;
+    border-radius: 20px;
+  
+  }
+  .ul0{
+    margin: 120px 18%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding:8px;
+    position: absolute;
+    display:flex;
+
+  }
+  .ul0 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-left: 80px;
+  }
+
+  .f_logo{
+    position: absolute;
+    margin-left: 45%;
+  }
+  .svg{
+    position: absolute;
+    margin-left: 45%;
+    margin-bottom:50px ;
+
+  }
+  #ul{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 12.5%;
+    text-align: center;
+    
+  }
+  .footer li{
+    display: inline-block;
+  }
+  .fa {
+    padding: 8px;
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+ 
+  

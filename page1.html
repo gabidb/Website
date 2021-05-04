@@ -1,0 +1,124 @@
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="home.css">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+
+
+<title>Home Page</title>
+   
+</head>
+
+<body>
+<div id="wrapper">
+
+<nav class="main_nav">
+<div id="logo">
+   <img src="images/logo1.png" width="200px" height="100px">
+</div>
+<img class="sen" src="images/slogo.svg" width="300px" height="150px">
+
+  <a href="Contact.html">Contact</a>
+  <a href="about.html">About</a>	
+  <a href="products.html">Products</a>
+  <a href="#home">Home</a>
+
+</nav>
+<div class="main_img">
+  <img class="slide" src="images/pic3.jpg" width="100%" height="100%">
+  <img class="slide" src="images/pic4.jpg" width="100%" height="100%">
+  <img class="slide" src="images/pic5.jpg" width="100%" height="100%">
+  <img class="slide" src="images/pic6.jpg" width="100%" height="100%">
+  <div class="text-block">
+    <h4> Learn how to relax in the comfort of your own home</h4>
+    <p>try our bio essential oils with amazing scents</p>
+    <p>because self-care comes first</p>
+  </div>
+</div>
+
+<script>
+var index = 0;
+
+SlideShow();
+
+function SlideShow() {
+  var i;
+
+  var slides = document.getElementsByClassName("slide");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  
+  index++;
+  if(index > slides.length){
+    index = 1;
+  }
+  
+  slides[index-1].style.display = "block";
+  
+  setTimeout(SlideShow, 3000);
+}
+
+</script>
+<div style="width: 87%; margin-left: auto; margin-right: auto;">
+  <div class="dif" style="width: 33%;">
+    <img src="images/dif.jpg" width="80%" height="200px" class="round">
+     
+  </div>
+  <div class="oil" style="width: 33%;">
+    <img src="images/oil1.jpg" width="80%" height="200px" class="round">
+
+  </div>
+  <div class="aroma" style="width: 33%;">
+    <img src="images/aroma.jpg" width="80%" height="200px" class="round">
+
+  </div>
+</div>
+
+<div  class="main_rect">
+  <div class="rect">
+    <p class="text"> Not only a relaxing ritual and gratifying way to scent your home, the use of essential oil diffusers can deliver aromatherapeutic benefits to the body and mind.Whether you want specific oil or blend to uplift and invigorate, or one to set a calming ambience, you can 	tailor the use of essential oil diffusions to suit situations and set the scene for your 	mood.</p>
+    <a href="products.html"><button class="btn1">Shop Diffusers</button></a>    
+  </div>
+  <img src="images/dif2.jpg" width="350px" height="250px" class="img_dif2">
+
+</div>
+
+<div class="main_rect">
+  <img src="images/oil2.jpg" width="350px" height="250px" class="img_oil2">
+  <div class="rect1">
+    <p class="text"> Essential oils have many benefits depending on the scent you choose. The oils are made from concentrated plant extracts and often used in aromatherapy or massage therapy. You can use the oils in a diffuser or mix in a massage oil for a soothing massage.</p>
+    <a href="products.html"><button class="btn1">Shop Essential Oils </button></a>    
+  </div>
+ 
+</div>
+
+<footer class="footer">
+    <span class="ul0" >
+    <a href="Contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="products.html">Products</a>
+    <a href="page1.html">Home</a>
+    </span>
+
+  <img class="f_logo" src="images/logo1.png" width="200px" height="100px">
+  <img class="svg" src="images/svg.svg" width="200px" height="100px">
+
+  <ul id="ul" style="list-style-type: none">
+     <li><a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a></li>
+     <li><a href="https://twitter.com" target="_blank" class="fa fa-twitter"></a></li>
+     <li><a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a></li>
+     <li><a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a></li>  
+     <li style="display:block">SENSES Shop &copy; 2020 Senses BG. All Rights Reserved. All logos and trademarks are property of their respective owners.</li>
+  </ul>
+</footer>
+	
+</div>
+   
+</body>
+
+</html>

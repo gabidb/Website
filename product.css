@@ -1,0 +1,129 @@
+
+.wrapper{
+  max-width: 100vw;
+  Height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.main_nav1{
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+  width: 87%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+  .main_nav1 a{
+    float: right;
+    margin: 25px 25px;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+  }
+  .main_nav1 a:hover {
+    background-color: #ddd;
+    color: #FFB6C1;
+  }
+  #logo{
+    float: left;
+    width: 50px;
+    height: 10px;
+    padding-left:50px;
+  }
+  .sen{
+    position: absolute;
+    z-index: 1;
+    margin-left: 14px;
+  }
+  body {
+    padding:0px;
+    margin:0px;
+    background-color: #FFE5E5;
+  }
+  .main_img{
+      width: 87%;
+      margin-left: auto;
+      margin-right: auto;
+      height:86vh;
+      position: relative;
+  }
+  .main_img img{
+      width: 100%;
+      height: 90%;
+      opacity: 0.7;
+  }
+  .text1{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: white;
+      border-style: double;
+      border-radius: 20px;
+      border-width: 10px;
+      padding: 30px;
+      font-size: 1.6em;
+      font-family: "Lucida Console", Courier, monospace;
+      font-weight: bold;
+
+
+  }
+  .textBox{
+      position: absolute;
+      background: rgba(0,0,0,0.25);
+      width:100%;
+      height: 150px;
+      top:25%;
+  }
+  .btn2{
+    position: absolute;
+    top: 65%;
+    left: 28%;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 12px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    Opacity: 0.9;
+  }
+  .main_img .btn2:hover{
+    background-color: #FFB6C1;
+  }
+  .btn1{
+    position: absolute;
+    top: 65%;
+    left: 54%;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 12px 55px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    Opacity: 0.9;
+  }
+  .main_img .btn1:hover{
+    background-color: #FFB6C1;
+  }
+  hr{
+    margin-top: 30px;
+    border: 1px solid #FFB6C1;
+  }
+  h2{
+    text-align: center;
+    font-family: 'Trocchi', serif;
+    color:rgb(131, 131, 131);
+  }
+
+  

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="about.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+
+   
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main_nav1">
+            <div id="logo">
+               <img src="images/logo1.png" width="200px" height="100px">
+            </div>
+            <img class="sen" src="images/slogo.svg" width="300px" height="150px">
+              <a href="Contact.html">Contact</a>
+              <a href="#about">About</a>	
+              <a href="products.html">Products</a>
+              <a href="page1.html">Home</a>
+            
+        </div>
+        <div id="id" class="faq">
+
+        <h1>FAQ</h1>
+        
+        <button type="button" class="collapsible">How to pick an essential oil</button>
+        <div class="content">
+          <p><b>Lavender</b> has all kinds of benefits. This subtly floral scent can help people to relax and sleep. Moreover, breathing it in has been found to help with alleviating headaches, while the use of the oil topically may help reduce the itching and swelling from bug bites.</p>
+          <p><b>Rose</b> helps reduce anxiety. Its antioxidant properties have also been found to help treat acne and improve complexion for an overall younger look.</p>
+          <p><b>Hyssop</b> essential oil can be used on the skin to help to minimize scarring, decrease inflammation, and act as an overall healing agent.</p>
+        </div>
+      
+        <button  type="button" class="collapsible">How to place an order</button>
+        <div class="content">
+          <p> To make an order, please go to our Contact form and specify</p>
+          <p> 1)the product</p>
+          <p> 2)the desired quantities</p>
+          <p> If you wish to order different products, please specify 1) and 2) for each</p>
+          <p> Finally, provide your shipping information, phone number, name</p>
+        </div>
+        <button type="button" class="collapsible">Shipping and Delivery costs</button>
+        <div class="content">
+          <p>To ensure that your package is properly delivered and that you receive your package within the time frames we advertise, please make sure that your address is correctly entered and includes all relevant and/or required information.We will ship domestic orders via FastLines. However, international shipping is not available. Other carrier options are available and we reserve the right to change carriers at any time.</p>
+          <p><b>Delivery time:</b> from 3 to 5 days</p>
+          <p>Delivery costs:</p>
+          <p>For orders under $35 the delievery cost is $3.99</p>
+          <p>For orders above $35 we provide FREE Shipping</p>
+        </div>
+        <button type="button" class="collapsible">Tracking your order</button>
+        <div class="content">
+          <p>Once your order is complete in the check-out, you should receive a thank you email.  Once your order is processed, you'll receive an email that contains a tracking link to track your package. If there are any concerns regarding this, please contact us at support@senses.com</p>
+        </div>
+        <button type="button" class="collapsible">Return policy</button>
+        <div class="content">
+          <p>We accept MasterCard, Visa, Payment on delievery, and PayPal, however we do not accept returns, exchanges or refunds.  All Sales are Final.</p>
+        </div>
+        </div>
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].onclick = function(){
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                  content.style.maxHeight = null;
+                } else {
+
+                    for (var j = 0; j < coll.length; j++) {
+                          if(coll[j].nextElementSibling.style.maxHeight){
+                              coll[j].nextElementSibling.style.maxHeight=null 
+                              coll[j].classList.toggle("active");
+                          }
+                    } 
+                    content.style.maxHeight = content.scrollHeight + "px";                 
+                }
+
+              }
+            }
+            </script>
+
+
+    </div>
+</body>
+</html>
